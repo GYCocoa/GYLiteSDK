@@ -87,6 +87,14 @@
             return;
         }
     }
+    
+    if (completion) {
+        if (allFiles.count == 0) {
+            completion(NO, nil);
+        }else{
+            completion(YES, nil);
+        }
+    }
 }
 
 - (BOOL)zs_saveFileToSQLite:(NSString *)filePath withRelativePath:(NSString *)relativePath {
@@ -119,7 +127,7 @@
     NSString *dbPath = [documentsPath stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.db", dbName]];
     
     if (isSandbox) {
-        dbPath = [[NSBundle mainBundle] pathForResource:dbName ofType:@".db"];
+        dbPath = [[NSBundle mainBundle] pathForResource:dbName ofType:@"db"];
     }
     
     if (sqlite3_open([dbPath UTF8String], &_zs_database) != SQLITE_OK) {

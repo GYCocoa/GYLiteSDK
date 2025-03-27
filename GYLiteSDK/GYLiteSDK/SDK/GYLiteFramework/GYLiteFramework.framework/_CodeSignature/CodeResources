@@ -6,7 +6,11 @@
 	<dict>
 		<key>Headers/GYLiteFramework.h</key>
 		<data>
-		+fe+p8GzYnbs4AORRMRt1rclB7k=
+		YyImH8b7aT0qQJvD7TFWBn0sJOw=
+		</data>
+		<key>Headers/ZSSqlFileManager.h</key>
+		<data>
+		Ycpt6FWFCtp3Iz3hnktbTDhD2UQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,7 +27,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0qzrjhveZRSGYdH/FZk4zuiys2cy2DhDAJsQJ/9co3A=
+			vGNAGF71cMZdUoSPGxL2iz9gVb8duoy+nTqpWfcdLpo=
+			</data>
+		</dict>
+		<key>Headers/ZSSqlFileManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2snYMAalfg91qytcdYJFOUlLHqeGVV5YcOMtVCqB5LE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

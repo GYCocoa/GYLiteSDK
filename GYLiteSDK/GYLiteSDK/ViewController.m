@@ -18,9 +18,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [[ZSSqlFileManager shared] zs_saveFolderToSandbox:@"" dbName:@"" progressCallback:^(CGFloat progress) {
+    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"remote-asset" ofType:nil];
+    [[ZSSqlFileManager shared] zs_saveFolderToSandbox:sourcePath dbName:@"zs_file" progressCallback:^(CGFloat progress) {
+        
+        NSLog(@"%f", progress);
         
     } completion:^(BOOL success, NSError * _Nullable error) {
+        
+        NSLog(@"%@", success ? @"成功" : @"失败");
+
         
     }];
     

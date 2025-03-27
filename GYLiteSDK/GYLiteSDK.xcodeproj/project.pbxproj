@@ -14,9 +14,9 @@
 		610298E02D94E81E001260E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 610298D32D94E81E001260E6 /* main.m */; };
 		610298E12D94E81E001260E6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 610298D72D94E81E001260E6 /* SceneDelegate.m */; };
 		610298E22D94E81E001260E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610298D92D94E81E001260E6 /* ViewController.m */; };
-		6102990A2D94EA26001260E6 /* GYLiteFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610299072D94EA19001260E6 /* GYLiteFramework.framework */; };
-		6102990B2D94EA26001260E6 /* GYLiteFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 610299072D94EA19001260E6 /* GYLiteFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6102990F2D94EA42001260E6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6102990E2D94EA42001260E6 /* libsqlite3.tbd */; };
+		6102DF1B2D94FA2F001260E6 /* GYLiteFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6102DF192D94FA28001260E6 /* GYLiteFramework.framework */; };
+		6102DF1C2D94FA2F001260E6 /* GYLiteFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6102DF192D94FA28001260E6 /* GYLiteFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6102990B2D94EA26001260E6 /* GYLiteFramework.framework in Embed Frameworks */,
+				6102DF1C2D94FA2F001260E6 /* GYLiteFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,9 +46,9 @@
 		610298D72D94E81E001260E6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		610298D82D94E81E001260E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		610298D92D94E81E001260E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		610299072D94EA19001260E6 /* GYLiteFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GYLiteFramework.framework; sourceTree = "<group>"; };
 		6102990E2D94EA42001260E6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		610299102D94EB4D001260E6 /* GYLiteHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYLiteHeader.h; sourceTree = "<group>"; };
+		6102DF192D94FA28001260E6 /* GYLiteFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GYLiteFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6102990F2D94EA42001260E6 /* libsqlite3.tbd in Frameworks */,
-				6102990A2D94EA26001260E6 /* GYLiteFramework.framework in Frameworks */,
+				6102DF1B2D94FA2F001260E6 /* GYLiteFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 		610299082D94EA19001260E6 /* GYLiteFramework */ = {
 			isa = PBXGroup;
 			children = (
-				610299072D94EA19001260E6 /* GYLiteFramework.framework */,
+				6102DF192D94FA28001260E6 /* GYLiteFramework.framework */,
 			);
 			path = GYLiteFramework;
 			sourceTree = "<group>";
