@@ -1,0 +1,6 @@
+framework module GYLiteFramework {
+  umbrella header "GYLiteFramework.h"
+  export *
+
+  module * { export * }
+}
