@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		610298DB2D94E81E001260E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610298CF2D94E81E001260E6 /* Assets.xcassets */; };
+		610298DD2D94E81E001260E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610298D22D94E81E001260E6 /* LaunchScreen.storyboard */; };
+		610298DE2D94E81E001260E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610298D52D94E81E001260E6 /* Main.storyboard */; };
+		610298DF2D94E81E001260E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 610298CE2D94E81E001260E6 /* AppDelegate.m */; };
+		610298E02D94E81E001260E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 610298D32D94E81E001260E6 /* main.m */; };
+		610298E12D94E81E001260E6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 610298D72D94E81E001260E6 /* SceneDelegate.m */; };
+		610298E22D94E81E001260E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610298D92D94E81E001260E6 /* ViewController.m */; };
+		6102990F2D94EA42001260E6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6102990E2D94EA42001260E6 /* libsqlite3.tbd */; };
+		6102DF272D950017001260E6 /* GYLiteFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6102DF252D950013001260E6 /* GYLiteFramework.framework */; };
+		6102DF282D950017001260E6 /* GYLiteFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6102DF252D950013001260E6 /* GYLiteFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6102990C2D94EA26001260E6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6102DF282D950017001260E6 /* GYLiteFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		610298B02D94E80E001260E6 /* GYLiteSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYLiteSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		610298CD2D94E81E001260E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		610298CE2D94E81E001260E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		610298CF2D94E81E001260E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		610298D02D94E81E001260E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610298D12D94E81E001260E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		610298D32D94E81E001260E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		610298D42D94E81E001260E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		610298D62D94E81E001260E6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		610298D72D94E81E001260E6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		610298D82D94E81E001260E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		610298D92D94E81E001260E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6102990E2D94EA42001260E6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		610299102D94EB4D001260E6 /* GYLiteHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYLiteHeader.h; sourceTree = "<group>"; };
+		6102DF252D950013001260E6 /* GYLiteFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GYLiteFramework.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		610298AD2D94E80E001260E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6102990F2D94EA42001260E6 /* libsqlite3.tbd in Frameworks */,
+				6102DF272D950017001260E6 /* GYLiteFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		610298A72D94E80E001260E6 = {
+			isa = PBXGroup;
+			children = (
+				610298DA2D94E81E001260E6 /* GYLiteSDK */,
+				6102990D2D94EA42001260E6 /* Frameworks */,
+				610298B12D94E80E001260E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		610298B12D94E80E001260E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610298B02D94E80E001260E6 /* GYLiteSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		610298DA2D94E81E001260E6 /* GYLiteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				610298CD2D94E81E001260E6 /* AppDelegate.h */,
+				610298CE2D94E81E001260E6 /* AppDelegate.m */,
+				610298CF2D94E81E001260E6 /* Assets.xcassets */,
+				610298D02D94E81E001260E6 /* Info.plist */,
+				610298D22D94E81E001260E6 /* LaunchScreen.storyboard */,
+				610298D32D94E81E001260E6 /* main.m */,
+				610298D52D94E81E001260E6 /* Main.storyboard */,
+				610298D62D94E81E001260E6 /* SceneDelegate.h */,
+				610298D72D94E81E001260E6 /* SceneDelegate.m */,
+				610298D82D94E81E001260E6 /* ViewController.h */,
+				610298D92D94E81E001260E6 /* ViewController.m */,
+				610299052D94E9FD001260E6 /* SDK */,
+			);
+			path = GYLiteSDK;
+			sourceTree = "<group>";
+		};
+		610299052D94E9FD001260E6 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				610299102D94EB4D001260E6 /* GYLiteHeader.h */,
+				610299082D94EA19001260E6 /* GYLiteFramework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		610299082D94EA19001260E6 /* GYLiteFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6102DF252D950013001260E6 /* GYLiteFramework.framework */,
+			);
+			path = GYLiteFramework;
+			sourceTree = "<group>";
+		};
+		6102990D2D94EA42001260E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6102990E2D94EA42001260E6 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		610298AF2D94E80E001260E6 /* GYLiteSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610298C82D94E80E001260E6 /* Build configuration list for PBXNativeTarget "GYLiteSDK" */;
+			buildPhases = (
+				610298AC2D94E80E001260E6 /* Sources */,
+				610298AD2D94E80E001260E6 /* Frameworks */,
+				610298AE2D94E80E001260E6 /* Resources */,
+				6102990C2D94EA26001260E6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYLiteSDK;
+			packageProductDependencies = (
+			);
+			productName = GYLiteSDK;
+			productReference = 610298B02D94E80E001260E6 /* GYLiteSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		610298A82D94E80E001260E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					610298AF2D94E80E001260E6 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 610298AB2D94E80E001260E6 /* Build configuration list for PBXProject "GYLiteSDK" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 610298A72D94E80E001260E6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 610298B12D94E80E001260E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				610298AF2D94E80E001260E6 /* GYLiteSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		610298AE2D94E80E001260E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610298DB2D94E81E001260E6 /* Assets.xcassets in Resources */,
+				610298DD2D94E81E001260E6 /* LaunchScreen.storyboard in Resources */,
+				610298DE2D94E81E001260E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		610298AC2D94E80E001260E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610298DF2D94E81E001260E6 /* AppDelegate.m in Sources */,
+				610298E02D94E81E001260E6 /* main.m in Sources */,
+				610298E12D94E81E001260E6 /* SceneDelegate.m in Sources */,
+				610298E22D94E81E001260E6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		610298D22D94E81E001260E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610298D12D94E81E001260E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		610298D52D94E81E001260E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610298D42D94E81E001260E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		610298C92D94E80E001260E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVH4R94K29;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GYLiteSDK/SDK/GYLiteFramework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GYLiteSDK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zs.sdk.GYLiteSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		610298CA2D94E80E001260E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVH4R94K29;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GYLiteSDK/SDK/GYLiteFramework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GYLiteSDK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zs.sdk.GYLiteSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		610298CB2D94E80E001260E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		610298CC2D94E80E001260E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		610298AB2D94E80E001260E6 /* Build configuration list for PBXProject "GYLiteSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610298CB2D94E80E001260E6 /* Debug */,
+				610298CC2D94E80E001260E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610298C82D94E80E001260E6 /* Build configuration list for PBXNativeTarget "GYLiteSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610298C92D94E80E001260E6 /* Debug */,
+				610298CA2D94E80E001260E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 610298A82D94E80E001260E6 /* Project object */;
+}
