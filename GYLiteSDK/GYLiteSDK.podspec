@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "GYLiteSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "GYLite工具SDK"
   spec.homepage     = "https://github.com/GYCocoa/GYLiteSDK"
   spec.license      = "MIT"

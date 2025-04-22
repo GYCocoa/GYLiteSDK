@@ -11,6 +11,8 @@
 		610298FE2D94E848001260E6 /* GYLiteFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 610298FB2D94E848001260E6 /* GYLiteFramework.docc */; };
 		610299032D94E9A5001260E6 /* ZSSqlFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 610299022D94E9A5001260E6 /* ZSSqlFileManager.m */; };
 		610299042D94E9A5001260E6 /* ZSSqlFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 610299012D94E9A5001260E6 /* ZSSqlFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61EFE24C2DB778AA00C3C0D7 /* GYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EFE24B2DB778AA00C3C0D7 /* GYRouter.m */; };
+		61EFE24D2DB778AA00C3C0D7 /* GYRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EFE24A2DB778AA00C3C0D7 /* GYRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		610298FB2D94E848001260E6 /* GYLiteFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GYLiteFramework.docc; sourceTree = "<group>"; };
 		610299012D94E9A5001260E6 /* ZSSqlFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSSqlFileManager.h; sourceTree = "<group>"; };
 		610299022D94E9A5001260E6 /* ZSSqlFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSSqlFileManager.m; sourceTree = "<group>"; };
+		61EFE24A2DB778AA00C3C0D7 /* GYRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYRouter.h; sourceTree = "<group>"; };
+		61EFE24B2DB778AA00C3C0D7 /* GYRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYRouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		610298FF2D94E968001260E6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				61EFE2492DB778A300C3C0D7 /* Router */,
 				610299002D94E974001260E6 /* Sql */,
 			);
 			path = Classes;
@@ -75,6 +80,15 @@
 			path = Sql;
 			sourceTree = "<group>";
 		};
+		61EFE2492DB778A300C3C0D7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				61EFE24A2DB778AA00C3C0D7 /* GYRouter.h */,
+				61EFE24B2DB778AA00C3C0D7 /* GYRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -83,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				610299042D94E9A5001260E6 /* ZSSqlFileManager.h in Headers */,
+				61EFE24D2DB778AA00C3C0D7 /* GYRouter.h in Headers */,
 				610298FD2D94E848001260E6 /* GYLiteFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +175,7 @@
 			files = (
 				610298FE2D94E848001260E6 /* GYLiteFramework.docc in Sources */,
 				610299032D94E9A5001260E6 /* ZSSqlFileManager.m in Sources */,
+				61EFE24C2DB778AA00C3C0D7 /* GYRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

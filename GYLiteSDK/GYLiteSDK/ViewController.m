@@ -30,7 +30,24 @@
         
     }];
     
+    
+    [[GYRouter shared] registerRoute:@"111" handler:^id _Nullable(NSDictionary * _Nonnull params) {
+        
+        NSLog(@"获得注册数据：%@", params);
+        
+        return @{@"注册成功回调":@"success"};
+        
+    }];
 }
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    id res = [[GYRouter shared] openRoute:@"111" param:@{@"111":@"222"}];
+    NSLog(@"res: %@", res);
+}
+
+
+
 
 
 @end

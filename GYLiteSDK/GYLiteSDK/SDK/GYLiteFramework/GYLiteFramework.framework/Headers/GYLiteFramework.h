@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char GYLiteFrameworkVersionString[];
 
 #import <GYLiteFramework/GYLiteFramework.h>
 #import <GYLiteFramework/ZSSqlFileManager.h>
+#import <GYLiteFramework/GYRouter.h>
