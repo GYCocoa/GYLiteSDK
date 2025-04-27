@@ -38,6 +38,15 @@
         return @{@"注册成功回调":@"success"};
         
     }];
+    
+    NSString * aes_str = @"hello";
+    NSString * aes_key = @"qwertyuiop123456";
+
+    NSString * aes_en = [GYAESUtil encryptString:aes_str key:aes_key];
+    NSLog(@"加密：%@", aes_en);
+    NSLog(@"解密：%@", [GYAESUtil decryptString:aes_en key:aes_key]);
+
+    
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
