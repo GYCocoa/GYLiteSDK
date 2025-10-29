@@ -11,6 +11,8 @@
 		610298FE2D94E848001260E6 /* GYLiteFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 610298FB2D94E848001260E6 /* GYLiteFramework.docc */; };
 		610299032D94E9A5001260E6 /* ZSSqlFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 610299022D94E9A5001260E6 /* ZSSqlFileManager.m */; };
 		610299042D94E9A5001260E6 /* ZSSqlFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 610299012D94E9A5001260E6 /* ZSSqlFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6163E3742EB1BDB0002FD6C6 /* GYBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 6163E3722EB1BDB0002FD6C6 /* GYBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6163E3752EB1BDB0002FD6C6 /* GYBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6163E3732EB1BDB0002FD6C6 /* GYBase64.m */; settings = {ATTRIBUTES = (Public, ); }; };
 		61EFE24C2DB778AA00C3C0D7 /* GYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EFE24B2DB778AA00C3C0D7 /* GYRouter.m */; };
 		61EFE24D2DB778AA00C3C0D7 /* GYRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EFE24A2DB778AA00C3C0D7 /* GYRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61F50CA42DBDCEA5007C11E0 /* GYAESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F50CA32DBDCEA5007C11E0 /* GYAESUtil.m */; };
@@ -23,6 +25,8 @@
 		610298FB2D94E848001260E6 /* GYLiteFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GYLiteFramework.docc; sourceTree = "<group>"; };
 		610299012D94E9A5001260E6 /* ZSSqlFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSSqlFileManager.h; sourceTree = "<group>"; };
 		610299022D94E9A5001260E6 /* ZSSqlFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSSqlFileManager.m; sourceTree = "<group>"; };
+		6163E3722EB1BDB0002FD6C6 /* GYBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYBase64.h; sourceTree = "<group>"; };
+		6163E3732EB1BDB0002FD6C6 /* GYBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYBase64.m; sourceTree = "<group>"; };
 		61EFE24A2DB778AA00C3C0D7 /* GYRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYRouter.h; sourceTree = "<group>"; };
 		61EFE24B2DB778AA00C3C0D7 /* GYRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYRouter.m; sourceTree = "<group>"; };
 		61F50CA22DBDCEA5007C11E0 /* GYAESUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYAESUtil.h; sourceTree = "<group>"; };
@@ -69,6 +73,7 @@
 		610298FF2D94E968001260E6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6163E3712EB1BDA2002FD6C6 /* Base64 */,
 				61F50CA12DBDCE62007C11E0 /* AES */,
 				61EFE2492DB778A300C3C0D7 /* Router */,
 				610299002D94E974001260E6 /* Sql */,
@@ -83,6 +88,15 @@
 				610299022D94E9A5001260E6 /* ZSSqlFileManager.m */,
 			);
 			path = Sql;
+			sourceTree = "<group>";
+		};
+		6163E3712EB1BDA2002FD6C6 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				6163E3722EB1BDB0002FD6C6 /* GYBase64.h */,
+				6163E3732EB1BDB0002FD6C6 /* GYBase64.m */,
+			);
+			path = Base64;
 			sourceTree = "<group>";
 		};
 		61EFE2492DB778A300C3C0D7 /* Router */ = {
@@ -113,6 +127,7 @@
 				610299042D94E9A5001260E6 /* ZSSqlFileManager.h in Headers */,
 				61EFE24D2DB778AA00C3C0D7 /* GYRouter.h in Headers */,
 				61F50CA52DBDCEA5007C11E0 /* GYAESUtil.h in Headers */,
+				6163E3742EB1BDB0002FD6C6 /* GYBase64.h in Headers */,
 				610298FD2D94E848001260E6 /* GYLiteFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +205,7 @@
 			files = (
 				610298FE2D94E848001260E6 /* GYLiteFramework.docc in Sources */,
 				61F50CA42DBDCEA5007C11E0 /* GYAESUtil.m in Sources */,
+				6163E3752EB1BDB0002FD6C6 /* GYBase64.m in Sources */,
 				610299032D94E9A5001260E6 /* ZSSqlFileManager.m in Sources */,
 				61EFE24C2DB778AA00C3C0D7 /* GYRouter.m in Sources */,
 			);

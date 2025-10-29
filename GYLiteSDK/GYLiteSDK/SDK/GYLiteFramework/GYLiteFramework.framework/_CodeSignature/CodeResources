@@ -8,9 +8,13 @@
 		<data>
 		b5Gwg/fvkLb6WW+psWF9vVJ0HLs=
 		</data>
+		<key>Headers/GYBase64.h</key>
+		<data>
+		AMSb43quSPFrotJcuS6RvWcomv4=
+		</data>
 		<key>Headers/GYLiteFramework.h</key>
 		<data>
-		NzkQ95zb9MSntqCqvUJ00chBSRs=
+		zNqqBP1ApnqNmwo7HL4eyXB5dck=
 		</data>
 		<key>Headers/GYRouter.h</key>
 		<data>
@@ -22,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Glh9hrDH5bXIXtQBwJwgmazlqR0=
+		AjsybIAIOQCEbXU6nqTa5TBFo4Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,11 +42,18 @@
 			ERui1OCiM4NjeJCiu2dP1PZqsXlyJjwLwoH9EmeRGsc=
 			</data>
 		</dict>
+		<key>Headers/GYBase64.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xg/ZkeX+lkWN534hIGpI/3fC4WP9CGlo2DOEFbBnDo8=
+			</data>
+		</dict>
 		<key>Headers/GYLiteFramework.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fJgPbp11a4pQ5yh0AykAwglQY5i57rBBmSMRQbO+EU4=
+			TXNfKjtYbhaLEXrEpWp/fk34NFR9/8auQSq9XWhFkiE=
 			</data>
 		</dict>
 		<key>Headers/GYRouter.h</key>
